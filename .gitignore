@@ -8,6 +8,10 @@
 *.lnk
 *.bat
 
+src/main/resources
+src/main/scala/scalafx
+src/main/scala/hello
+
 #original -->
 
 *.class
