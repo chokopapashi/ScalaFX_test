@@ -13,6 +13,7 @@ object CheckBoxTest extends JFXApp {
         height = 120
         scene = new Scene {
 //            fill = Color.LightGreen
+//        userAgentStylesheet_=java.
 /* ------------------------------------------------------------------------ */
             content = new BorderPane {
                 val label = new Label("Test")
