@@ -25,6 +25,8 @@ lazy val root = (project in file(".")).
         // add dependency of ScalaFX
 //        libraryDependencies += "org.scalafx" %% "scalafx" % "8.0.0-R4",
         libraryDependencies += "org.scalafx" %% "scalafx" % "8.0.40-R8",
+        // add classpath of JavaFX
+        unmanagedJars in Compile += Attributed.blank(file(System.getenv("JAVA_HOME") + "/jre/lib/ext/jfxrt.jar")),
 
         // add dependency of Akka
 //        resolvers += "Akka Snapshot Repository" at "http://repo.akka.io/snapshots/",
